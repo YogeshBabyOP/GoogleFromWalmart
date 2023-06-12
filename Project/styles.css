@@ -1,0 +1,148 @@
+#navid {
+  float: right;
+}
+
+#uid {
+  font-size: 25px;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.btn-group a.active .btn {
+  background-color: #06b6d4;
+  color: #ffffff;
+}
+
+.img {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 50px;
+  /* background-color: #f2f2f2; */
+  border-radius: 24px;
+  border: 1px solid rgb(214, 211, 211);
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 24px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.lens-icon {
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container button {
+  color: black;
+  font-size: 17px;
+  background-color: #f8f9fa;
+  /* transition: box-shadow 0.1s step-end; */
+  border: 1px solid #f8f9fa;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  border-color: rgb(215, 211, 211);
+  /* box-shadow: 0 1px 10px rgba(32,33,36,0.28); */
+}
+
+.container button:active {
+  border-color: rgb(14, 129, 237);
+}
+
+.bluelensglass {
+  margin-left: 12px;
+}
+
+.appbar {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+div.lOTAE {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div.ad {
+  float: left;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+
+#allWords {
+  margin-left: 100px;
+  box-sizing: border-box;
+  width: 600px;
+}
+
+#exactWord {
+  margin-left:28px;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+#anyWord {
+  margin-left: 72px;
+  width: 600px;
+  box-sizing: border-box;
+}
+
+#noWord {
+  margin-left: 60px;
+  box-sizing: border-box;
+  width: 600px;
+}
+
+#numberRange {
+  margin-left:40px;
+  width:300px;
+  box-sizing: border-box;
+}
+#to {
+  width: 260px;
+  box-sizing: border-box;
+}
+
+
+.fixed-size-container {
+  width: 870px;
+  height: 870px;
+  resize: both;
+  overflow: auto;
+  margin-left: 30px;
+}

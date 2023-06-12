@@ -10,7 +10,7 @@ function performGoogleSearch() {
   }
 }
 
-// voice Search
+// voice Search.
 function voiceSearch() {
   if ("webkitSpeechRecognition" in window) {
     window.alert("Speak, It will listen to your words !");
@@ -27,18 +27,20 @@ function voiceSearch() {
   }
 }
 
-
+// focus of cursor.
 document.addEventListener("DOMContentLoaded", function () {
   var searchInput = document.getElementById("search-input");
   searchInput.focus();
 });
 
+// button active highlighter.
 const buttons = document.querySelectorAll(".btn-group a");
 buttons.forEach((button) => {
   button.addEventListener("click", function (event) {
-    event.preventDefault(); // Prevent default link behavior
+    event.preventDefault();
     buttons.forEach((btn) => btn.classList.remove("active"));
     this.classList.add("active");
     window.location.href = this.getAttribute("href");
   });
 });
+
